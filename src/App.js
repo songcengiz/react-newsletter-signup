@@ -25,20 +25,14 @@ function EmailForm({ onAddUser }) {
   const [formIsValid, setFormIsValid] = useState(true);
   const id = crypto.randomUUID();
 
-  function handleValidation() {
-    if (!email) {
-      setFormIsValid(false);
-      setError((prev) => ({ ...prev, email: "Valid email request!" }));
-    }
-  }
-
   function handleSubmitUser(e) {
     e.preventDefault();
-    if (handleValidation()) {
+    if (email) {
       const newUser = { id, email };
       onAddUser(newUser);
-    } else {
-      handleValidation();
+    } else if (!email) {
+      setFormIsValid(false);
+      setError((prev) => ({ ...prev, email: "Valid email request!" }));
     }
   }
   return (
