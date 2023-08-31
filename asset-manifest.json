@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-newsletter-signup/static/css/main.22f81b41.css",
+    "main.js": "/react-newsletter-signup/static/js/main.700a6616.js",
+    "index.html": "/react-newsletter-signup/index.html",
+    "static/media/icon-list.svg": "/react-newsletter-signup/static/media/icon-list.5e317c030bb9f11a3343.svg",
+    "main.22f81b41.css.map": "/react-newsletter-signup/static/css/main.22f81b41.css.map",
+    "main.700a6616.js.map": "/react-newsletter-signup/static/js/main.700a6616.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22f81b41.css",
+    "static/js/main.700a6616.js"
+  ]
+}
